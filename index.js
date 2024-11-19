@@ -1,2 +1,2 @@
-console.log("Olá, CleitonQ")
+alert("Olá, CleitonQ")
 console.log("Estamos aprendendo Javascript!")
