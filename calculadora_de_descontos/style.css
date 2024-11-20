@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 0; /* Remove margens padrão */
+    padding-top: 20px; /* Espaçamento no topo */
+}
+
+.resultado {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-color: #5697d3; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #26be2d; /* Borda verde */
+    width: 80%; /* Largura de 80% da tela */
+    max-width: 300px; /* Limita a largura máxima a 300px */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Deixa o texto mais grosso */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.resultado:hover {
+    background-color: #072f4d; /* Muda a cor de fundo ao passar o mouse */
+}
