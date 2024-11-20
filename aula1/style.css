@@ -1,0 +1,43 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Flexbox para centralizar conteúdo */
+    flex-direction: column; /* Direção da coluna */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+/* Estilo do título */
+h1 {
+    color: #4a90e2; /* Cor do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo dos parágrafos */
+p {
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    margin: 10px 0; /* Margem superior e inferior */
+    max-width: 600px; /* Largura máxima do parágrafo */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    font-size: 0.9em; /* Tamanho da fonte menor */
+    color: #777; /* Cor do texto do rodapé */
+}
+
+/* Estilo do rodapé em dispositivos móveis */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduz o espaçamento em dispositivos menores */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Tamanho do título em dispositivos menores */
+    }
+}
