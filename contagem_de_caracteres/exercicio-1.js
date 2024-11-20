@@ -1,4 +1,4 @@
-//Solicitar que o usuário insira uma frase
+// Solicitar que o usuário insira uma frase
 let frase = prompt("Digite uma frase:");
 
 // Calcule o número de caracteres na frase
