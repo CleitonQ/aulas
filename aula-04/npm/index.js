@@ -4,4 +4,4 @@ const mySchema = z.string()
 
 console.log(mySchema.parse("Cleiton"))
 
-alert("Olá mundo!")
+alert("Olá, mundo!")
