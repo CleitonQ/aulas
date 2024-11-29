@@ -30,4 +30,14 @@ function calcularSoma() {
     }
 }
 
+function calcularSubtracao() {
+    let numero1 = parseFloat(prompt("Digite o primerio número:"));
+    let numero2 = parseFloat(prompt("Digite o segundo número:"));
 
+    if (!isNaN(numero1) && !isNaN(numero2)){
+        let resultado = subtrair(numero1, numero2);
+        alert(`A subtração de ${numero1} e ${numero2} é ${resultado}`);
+    } else {
+        alert("Por favor, insira números válidos.");
+    }
+}
