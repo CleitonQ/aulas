@@ -41,3 +41,28 @@ function calcularSubtracao() {
         alert("Por favor, insira números válidos.");
     }
 }
+
+// Criamos uma variável no escopo externo para salvar a opção escolhida
+let escolha;
+
+do {
+    escolha = mostrarMenu();
+
+    // Usamos um switch para executar uma função diferente para cada caso
+    switch (escolha) {
+        case 1:
+            calcularDobro();
+            break;
+        case 2:
+            calcularSoma();
+            break;
+        case 3:
+            calcularSubtracao();
+            break;
+        case 4:
+            alert("Saindo...");
+            break;
+        default;
+            alert("Opção inválida. Tente novamente.");
+    }
+} while (escolha !== 4); // Tudo isso enquanto a escolha for diferente de "4. Sair"
