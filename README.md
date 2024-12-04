@@ -20,3 +20,17 @@ PULL: Pega arquivos remotos e merge com os arquivos locais. Cuidado ao utilizar 
 PUSH: Envia os arquivos locais para o repositório remoto. É usado da seguinte maneira: git push origin nomedabranch
 CHECKOUT: Muda da branch atual para a branch escolhida. É utilizado da seguinte maneira: git checkout nomedabranch
 MERGE: Mescla duas branches. É utilizado da seguinte maneira: git merge nomedabranch o nome da branch é o nome da branch que deseja dar o merge com a branch atual.
+
+
+A maioria das tags tem seus próprios atributos. Contudo, existem alguns atributos genéricos que podem ser utilizados na maioria das tags HTML, vamos estudá-los:
+
+class=”…“ – Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);
+id=”…“ – Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento);
+style=”…” – Permite incluir elementos CSS (estilos) dentro da tag;
+lang=”…” – Define o idioma principal do elemento;
+title=”…” – Define o título do elemento;
+alt=”…” – Define um texto alternativo e, por isso, é muito utilizado em imagens, auxilia nas práticas de SEO;
+hidden – Oculta o elemento;
+align=”…” – Permite definir o padrão de alinhamento desse elemento, como por exemplo: right, center, left e justify;
+width=”…” – Define uma largura para o elemento;
+height=”…” – Define uma altura para o elemento.
